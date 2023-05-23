@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
 
@@ -35,8 +36,28 @@
         <br>
         git commit --amend
     </p>
-    git remote add github https://github.com/RGneo7/repasogit.git
-    git remote set-url origin git@github.com:ppreyer/first_app.git
+    <p>
+        para subir los archivos al repositorio usamos <br>
+        git remote add github https://github.com/RGneo7/repasogit.git
+        git remote set-url origin git@github.com:ppreyer/first_app.git
+    </p>
+    <p>
+        para actualizar los cambios guardados en github en local <br>
+        git pull
+    </p>
+    <p>
+        Etiquetas
+        <br>
+        git tag nameTag -m "descripcion"
+        <br>
+        git push --tags
+    </p>
+
+    <h2>Ramas</h2>
+    <p>crear rama <br> git branch nameRama</p>
+    <p>para listar las ramas <br> git branch</p>
+    <p>para movernos entre ramas <br> git checkout nameRama</p>
     
+    <input type="button" value="Dale YA!" onclick="saludo();">
 </body>
 </html>
